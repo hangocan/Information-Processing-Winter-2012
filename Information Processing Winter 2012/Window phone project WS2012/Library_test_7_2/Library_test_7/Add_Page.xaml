@@ -1,0 +1,210 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Library_test_7.Add_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True" d:DesignHeight="768" d:DesignWidth="480">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title.-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,0">
+            <TextBlock 
+                x:Name="ApplicationTitle" 
+                Text="Librarian" 
+                Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock 
+                x:Name="PageTitle" 
+                Text="New Book" 
+                Margin="0,0,0,0" 
+                Style="{StaticResource PhoneTextTitle1Style}"/>
+            <Button 
+            	Content="Add" 
+            	HorizontalAlignment="Left" 
+            	Margin="60,0,0,0" 
+            	VerticalAlignment="Top"
+            	Click="add_Click"/>
+            <Button 
+            	Content="Remove" 
+            	HorizontalAlignment="Right" 
+            	Margin="0,-70,50,0" 
+            	VerticalAlignment="Top"
+            	/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here.-->
+
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+
+
+            <ListBox x:Name="BookInfo"  Margin="0,0,-12,0">
+
+                <!--Book-->
+                
+                <TextBlock Text="Book Title*"/>
+                <TextBox x:Name="BookTitleTextBox" Text="A Title" Width="430"/>
+                <TextBlock Text="Genre*"/>
+                <TextBox x:Name="BookGenreTextBox" Text="Action" Width="430"/>
+                <TextBlock Text="Year Of Publication"/>
+                <TextBox x:Name="BookYoPTextBox" Text="2001" Width="430"/>
+                <TextBlock Text="Edition"/>
+                <TextBox x:Name="EditionTextBox" Text="2" Width="430"/>
+                <TextBlock Text="ISBN"/>
+                <TextBox x:Name="ISBNTextBox" Text="234567896" Width="430"/>
+                <TextBlock Text="Purchase Price"/>
+                <TextBox x:Name="PPriceTextBox" Text="100" Width="430"/>
+                <TextBlock Text="additional info 1"/>
+                <TextBox x:Name="addInfoTextBox" Text="them info"  Width="430"/>
+                <TextBlock Text="CurrentValue"/>
+                <TextBox x:Name="CurrentValueTextBox" Text="khong biet" Width="430"/>
+                <TextBlock Text="Loaned Out To"/>
+                <TextBox x:Name="LoanedOutToTextBox"  Text="mot thang nao do"  Width="430"/>
+                
+                
+                <!--Book Author-->
+                <!--<TextBlock Text="AuthorID*"/>
+                <TextBox x:Name="AuthorIDTextBox" Width="430"/>-->
+                <TextBlock Text="Author Surname*"/>
+                <TextBox x:Name="SurnameTextBox" Text="ASName" Width="430"/>
+                <TextBlock Text="Author Forename*"/>
+                <TextBox x:Name="ForenameTextBox" Text="AFName" Width="430"/>
+                <TextBlock Text="Author Homepage*"/>
+                <TextBox x:Name="AuthorHomePgTextBox" Text="Author.com" Width="430"/>
+                <TextBlock Text="Author Email*"/>
+                <TextBox x:Name="AuthorEmailTextBox" Text="Author@mail.com" Width="430"/>
+                <TextBlock Text="Author CV*"/>
+                <TextBox x:Name="AuthorCVTextBox" Text="CV" Width="430"/>
+
+                <!--Seller-->
+                <!--<TextBlock Text="BookSellerID*"/>
+                <TextBox x:Name="BookSellerIDTextBox" Width="430"/>-->
+                <TextBlock Text="BookSellerName*"/>
+                <TextBox x:Name="BookSellerNameTextBox" Text="Name of BookSeller" Width="430"/>
+                <TextBlock Text="BookSellerAdr*"/>
+                <TextBox x:Name="BookSellerAdrTextBox" Text="Adr of BookSeller" Width="430"/>
+                <TextBlock Text="BookSellerEmail"/>
+                <TextBox x:Name="BookSellerEmailTextBox" Text="bookseller@mail.com" Width="430"/>
+                <TextBlock x:Name="BookSellerHomePg" Width="430"/>
+                <TextBox x:Name="BookSellerHomePgTextBox" Text="bookseller.com" Width="430"/>
+                <TextBlock x:Name="BookSellerPhone" Width="430"/>
+                <TextBox x:Name="BookSellerPhoneTextBox" Text="1234567890" Width="430"/>
+                <TextBlock x:Name="AssortmentofBook" Width="430"/>
+                <TextBox x:Name="AssortmentofbookTextBox" Text="Khong hieu la gi" Width="430"/>
+                <TextBlock x:Name="BookSellerEvent" Width="430"/>
+                <TextBox x:Name="BookSellerEventTextBox" Text="Cung khong hieu luon" Width="430"/>
+                <TextBlock x:Name="BookSellerSpeciality" Width="430"/>
+                <TextBox x:Name="BookSellerSpecialityTextBox" Text="Cung khong hieu not" Width="430"/>
+                <TextBlock x:Name="BookSellerNewletterbyMail" Width="430"/>
+                <CheckBox x:Name="NewletterbyMailCheckBox"  Width="430"/>
+                <TextBlock x:Name="BookSellerNewletterbyEmail" Width="430"/>
+                <CheckBox x:Name="NewletterbyEmailCheckBox"  Width="430" IsChecked="True"/>
+                <TextBlock Text="BranchAddress"/>
+                <TextBox x:Name="BranchAdrTextBox" Text="19 Berliner Str" Width="430"/>
+                <TextBlock Text="BranchPhone"/>
+                <TextBox x:Name="BranchPhoneTextBox" Text="0152123456" Width="430"/>
+                <TextBlock Text="BranchHomePage"/>
+                <TextBox x:Name="BranchHomePageTextBox" Text="google.com" Width="430"/>
+                <TextBlock Text="BranchEmail"/>
+                <TextBox x:Name="BranchEmailTextBox" Text="branch@amazon.com" Width="430"/>
+                
+                <!--Editor-->
+                <!--<TextBlock Text="EditorID*"/>
+                <TextBox x:Name="EditorIDTextBox" Width="430"/>-->
+                <TextBlock Text="EditorSurname*"/>
+                <TextBox x:Name="EditorSurnameTextBox" Text="Editor SName" Width="430"/>
+                <TextBlock Text="EditorForename*"/>
+                <TextBox x:Name="EditorForenameTextBox" Text="Editor FName" Width="430"/>
+                <TextBlock Text="Editor Homepage"/>
+                <TextBox x:Name="EditorHomePageTextBox" Text="Editor.com" Width="430"/>
+                <TextBlock Text="Editor Email"/>
+                <TextBox x:Name="EditorEmailTextBox" Text="Editor@mail.com" Width="430"/>
+
+                <!--Publisher-->
+                <!--<TextBlock Text="PublisherID*"/>
+                <TextBox x:Name="PublisherIDTextBox" Width="430"/>-->
+                <TextBlock Text="PublisherName*"/>
+                <TextBox x:Name="PublisherNameTextBox" Text="Publisher Name" Width="430"/>
+                <TextBlock Text="PublisherLocation*"/>
+                <TextBox x:Name="PublisherLocationTextBox" Text="Location of Publisher" Width="430"/>
+                <TextBlock Text="PublisherCountry"/>
+                <TextBox x:Name="PublisherCountryTextBox" Text="Country of Publisher" Width="430"/>
+                <TextBlock Text="PublisherHomepage"/>
+                <TextBox x:Name="PublisherHomepageTextBox" Text="PublisherHP.com" Width="430"/>
+                <TextBlock Text="PublisherEmail"/>
+                <TextBox x:Name="PublisherEmailTextBox" Text="Publisher@mail.com" Width="430"/>
+                
+                <!--Rack-->
+                <TextBlock Text="RackLabel*"/>
+                <TextBox x:Name="RackLabelTextBox" Text="A1" Width="430"/>
+                <TextBlock Text="Capacity"/>
+                <TextBox x:Name="RackCapacityTextBox" Text="100" Width="430"/>
+                <TextBlock Text="Rack Additional info"/>
+                <TextBox x:Name="RackAddInfoTextBox" Text="100" Width="430"/>
+                <!--Location-->
+                
+                <TextBlock Text="LocationName*"/>
+                <TextBox x:Name="LocationNameTextBox" Text="Location" Width="430"/>
+                <TextBlock Text="LocationAdr*"/>
+                <TextBox x:Name="LocationAdrTextBox" Text="Adr of Location" Width="430"/>
+                <TextBlock Text="LcRoom*"/>
+                <TextBox x:Name="LcRoomTextBox" Text="Room 214" Width="430"/>
+                <TextBlock Text="Shelf Label"/>
+                <TextBox x:Name="ShelfLabelTextBox" Text="Room 214" Width="430"/>
+
+                <!--Importer-->
+                <TextBlock Text="Importer Name"/>
+                <TextBox x:Name="IpNameTextBox" Text="Importer Name" Width="430"/>
+                <TextBlock Text="Importer Address"/>
+                <TextBox x:Name="IpAdrTextBox" Text="Adr of Importer" Width="430"/>
+                <TextBlock Text="Importer HomePage"/>
+                <TextBox x:Name="IpHpTextBox" Text="IpHomePage.com" Width="430"/>
+                <TextBlock Text="Importer Email"/>
+                <TextBox x:Name="IpEmailTextBox" Text="Importer@mail.com" Width="430"/>
+                
+                <!--Review-->
+                <TextBlock Text="Review Author"/>
+                <TextBox x:Name="RvAhthorTextBox" Width="430"/>
+                <TextBlock Text="Review"/>
+                <TextBox x:Name="RvTextTextBox" Width="430"/>
+                <TextBlock Text="Review Additional Infomation"/>
+                <TextBox x:Name="AddInfoTextBox" Width="430"/>
+
+
+                <!--Book_not important-->
+
+                <TextBlock Text="Current Value"/>
+                <TextBox x:Name="CValueTextBox" Width="430"/>
+
+                
+
+                <TextBlock Text="Condition when Loaned out"/>
+                <TextBox x:Name="LoanConditionTextBox" Width="430"/>
+
+                <TextBlock Text="Loan out of date"/>
+                <TextBox x:Name="LoanEXPTextBox" Width="430"/>
+
+                <TextBlock Text="additional info 2"/>
+                <TextBox x:Name="addInfo2TextBox" Width="430"/>
+
+
+            </ListBox>
+
+
+        </Grid>
+
+
+    </Grid>
+</phone:PhoneApplicationPage>

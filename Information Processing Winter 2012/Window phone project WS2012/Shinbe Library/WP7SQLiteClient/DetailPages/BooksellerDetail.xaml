@@ -1,0 +1,81 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="WP7SQLiteClient.Control.BooksellerDetail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls" >
+
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <controls:Pivot HorizontalAlignment="Left" Width="480">
+            <!--Seller-->
+            <controls:PivotItem Header="Bookseller " >
+                <Grid x:Name="ContentPanel_BookSeller" Grid.Row="1" Margin="12,0,12,0">
+
+                    <ListBox x:Name="BookSeller"  Margin="0,0,-12,0" >
+                        <TextBlock Text="Name" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="BookSellerNameTextBox"  Width="430"/>
+                        <TextBlock Text="Address" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="BookSellerAdrTextBox"  Width="430"/>
+                        <TextBlock Text="Email" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="BookSellerEmailTextBox"  Width="430"/>
+                        <TextBlock Text="Homepage" Width="430" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="BookSellerHomePgTextBox"  Width="430"/>
+                        <TextBlock Text="Phone number" Width="430" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="BookSellerPhoneTextBox" Text="{Binding}" Width="430"/>
+                        <TextBlock Text="Assortment of Book" Width="430" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="AssortmentofbookTextBox"  Width="430"/>
+                        <TextBlock Text="Get newsletter by email" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="bsnewsemailTextBox" Width="430"/>
+                        <TextBlock Text="Get newsletter by ordinary mail" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="bsnewsmailTextBox" Width="430"/>
+                        <TextBlock Text="Speciality" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="BooksellerSpecialityTextBox"  Width="430" />
+                        <TextBlock Text="Event" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="BookSellerEventTextBox"  Width="430"/>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Book-->
+            <controls:PivotItem Header="Branches list" Name="branch" Tap="branch_Tap">
+                <Grid x:Name="ContentPanel1" Grid.Row="1" Margin="12,0,12,0">
+                    <ListBox x:Name="Branches"  Margin="0,0,-12,0" ItemsSource="{Binding}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Bbaddress}" FontSize="40"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+        </controls:Pivot>
+    </Grid>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton 
+                x:Name="editbookButton" 
+                IconUri="/Image/appbar.add.rest.png"
+                Text="Edit"                 
+                Click="EditbookButton_Click"/>
+            <shell:ApplicationBarIconButton 
+            x:Name="backButton" 
+                IconUri="/Image/appbar.back.rest.png"
+                Text="Back"                 
+                Click="BackButton_Click"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>

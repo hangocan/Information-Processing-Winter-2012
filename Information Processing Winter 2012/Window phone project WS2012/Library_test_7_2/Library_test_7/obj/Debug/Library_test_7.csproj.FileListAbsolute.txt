@@ -1,0 +1,182 @@
+C:\Users\Tin\Documents\Visual Studio 2012\Projects\Library_test_7\Library_test_7\obj\Debug\Library_test_7.csprojResolveAssemblyReference.cache
+C:\Users\Tin\Documents\Visual Studio 2012\Projects\Library_test_7\Library_test_7\obj\Debug\App.g.cs
+C:\Users\Tin\Documents\Visual Studio 2012\Projects\Library_test_7\Library_test_7\obj\Debug\MainPage.g.cs
+C:\Users\Tin\Documents\Visual Studio 2012\Projects\Library_test_7\Library_test_7\obj\Debug\Library_test_7.g.resources
+C:\Users\Tin\documents\visual studio 2012\Projects\Library_test_7\Library_test_7\Bin\Debug\ApplicationIcon.png
+C:\Users\Tin\documents\visual studio 2012\Projects\Library_test_7\Library_test_7\Bin\Debug\Background.png
+C:\Users\Tin\documents\visual studio 2012\Projects\Library_test_7\Library_test_7\Bin\Debug\Library_test_7.dll
+C:\Users\Tin\documents\visual studio 2012\Projects\Library_test_7\Library_test_7\Bin\Debug\Library_test_7.pdb
+C:\Users\Tin\documents\visual studio 2012\Projects\Library_test_7\Library_test_7\obj\Debug\Library_test_7.dll
+C:\Users\Tin\documents\visual studio 2012\Projects\Library_test_7\Library_test_7\obj\Debug\Library_test_7.pdb
+C:\Users\Tin\Documents\Visual Studio 2012\Projects\Library_test_7\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Tin\Documents\Visual Studio 2012\Projects\Library_test_7\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Tin\Documents\Visual Studio 2012\Projects\Library_test_7\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\Tin\Documents\Visual Studio 2012\Projects\Library_test_7\Library_test_7\Bin\Debug\AppManifest.xaml
+C:\Users\Tin\Documents\Visual Studio 2012\Projects\Library_test_7\Library_test_7\Bin\Debug\Library_test_7.xap
+C:\Users\Tin\Documents\Visual Studio 2012\Projects\Library_test_7\Library_test_7\obj\Debug\XapCacheFile.xml
+C:\Users\Tin\Documents\Visual Studio 2012\Projects\Library_test_7\Library_test_7\obj\Debug\EditBook.g.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\Bin\Debug\ApplicationIcon.png
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\Bin\Debug\Background.png
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\Bin\Debug\Library_test_7.dll
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\Bin\Debug\Library_test_7.pdb
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\Bin\Debug\AppManifest.xaml
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\Bin\Debug\Library_test_7.xap
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\obj\Debug\Library_test_7.csprojResolveAssemblyReference.cache
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\obj\Debug\App.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\obj\Debug\MainPage.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\obj\Debug\Library_test_7.g.resources
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\obj\Debug\Library_test_7.dll
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\obj\Debug\Library_test_7.pdb
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\obj\Debug\XapCacheFile.xml
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7\Library_test_7\obj\Debug\Add_Page.g.i.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Library_test_7.csprojResolveAssemblyReference.cache
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\App.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Add_Page.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\MainPage.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Library_test_7.g.resources
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Library_test_7.dll
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\Bin\Debug\ApplicationIcon.png
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\Bin\Debug\Background.png
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\Bin\Debug\Library_test_7.dll
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\Bin\Debug\Library_test_7.pdb
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\Bin\Debug\AppManifest.xaml
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\Bin\Debug\Library_test_7.xap
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Library_test_7.pdb
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\XapCacheFile.xml
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Page1.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Page2.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Author.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\BA.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\BB.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\BI.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Editor.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Bookseller.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Booksellerbrach.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Importer.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Publisher.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Rack.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\StorageLocation.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Add_PivotPage1.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Book_Detail.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Author_DetailPage.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Author_DetailPage2.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Editor_DetailPage2.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Publisher_DetailPage2.g.cs
+C:\Users\Tin\Downloads\Library_test_7\Library_test_7\obj\Debug\Pages\Importer_DetailPage2.g.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\Bin\Debug\ApplicationIcon.png
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\Bin\Debug\Background.png
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\Bin\Debug\Library_test_7.dll
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\Bin\Debug\Library_test_7.pdb
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\Bin\Debug\AppManifest.xaml
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\Bin\Debug\Library_test_7.xap
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Library_test_7.csprojResolveAssemblyReference.cache
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\App.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Add_Page.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Add_PivotPage1.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\MainPage.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Page2.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Author.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Author_DetailPage.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Author_DetailPage2.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\BA.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\BB.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\BI.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Bookseller.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Booksellerbrach.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Book_Detail.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Editor.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Editor_DetailPage2.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Importer.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Importer_DetailPage2.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Page1.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Publisher.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Publisher_DetailPage2.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\Rack.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Pages\StorageLocation.g.i.cs
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Library_test_7.g.resources
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Library_test_7.dll
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\Library_test_7.pdb
+C:\Users\mk4pi\Documents\Visual Studio 2010\Projects\Library_test_7_2\Library_test_7\obj\Debug\XapCacheFile.xml
+C:\Users\Public\Library_test_7_2\Library_test_7\Bin\Debug\ApplicationIcon.png
+C:\Users\Public\Library_test_7_2\Library_test_7\Bin\Debug\Background.png
+C:\Users\Public\Library_test_7_2\Library_test_7\Bin\Debug\Library_test_7.dll
+C:\Users\Public\Library_test_7_2\Library_test_7\Bin\Debug\Library_test_7.pdb
+C:\Users\Public\Library_test_7_2\Library_test_7\Bin\Debug\AppManifest.xaml
+C:\Users\Public\Library_test_7_2\Library_test_7\Bin\Debug\Library_test_7.xap
+C:\Users\Public\Library_test_7_2\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Public\Library_test_7_2\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Public\Library_test_7_2\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Library_test_7.csprojResolveAssemblyReference.cache
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\App.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Add_Page.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Add_PivotPage1.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\MainPage.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Page2.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Author.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Author_DetailPage.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Author_DetailPage2.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\BA.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\BB.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\BI.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Bookseller.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Booksellerbrach.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Book_Detail.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Editor.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Editor_DetailPage2.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Importer.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Importer_DetailPage2.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Page1.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Publisher.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Publisher_DetailPage2.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\Rack.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Pages\StorageLocation.g.cs
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Library_test_7.g.resources
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Library_test_7.dll
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\Library_test_7.pdb
+C:\Users\Public\Library_test_7_2\Library_test_7\obj\Debug\XapCacheFile.xml
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\Bin\Debug\ApplicationIcon.png
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\Bin\Debug\Background.png
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\Bin\Debug\Library_test_7.dll
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\Bin\Debug\Library_test_7.pdb
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\Bin\Debug\AppManifest.xaml
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\Bin\Debug\Library_test_7.xap
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\App.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Add_Page.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Add_PivotPage1.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\MainPage.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Page2.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Author.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Author_DetailPage.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Author_DetailPage2.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\BA.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\BB.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\BI.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Bookseller.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Booksellerbrach.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Book_Detail.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Editor.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Editor_DetailPage2.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Importer.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Importer_DetailPage2.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Page1.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Publisher.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Publisher_DetailPage2.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\Rack.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Pages\StorageLocation.g.i.cs
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Library_test_7.g.resources
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Library_test_7.dll
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\Library_test_7.pdb
+C:\Users\admin\Downloads\Compressed\original\Library_test_7_2\Library_test_7\obj\Debug\XapCacheFile.xml

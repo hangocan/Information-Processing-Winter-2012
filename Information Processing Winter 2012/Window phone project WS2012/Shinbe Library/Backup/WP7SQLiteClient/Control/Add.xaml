@@ -1,0 +1,220 @@
+﻿<phone:PhoneApplicationPage 
+      x:Class="WP7SQLiteClient.Control.Add"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls" >
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <controls:Pivot HorizontalAlignment="Left" Width="480">
+
+            <!--Book-->
+            <controls:PivotItem Header="Book">
+                <Grid x:Name="ContentPanel1" Grid.Row="1" Margin="12,0,12,0">
+                    <ListBox x:Name="Book"  Margin="0,0,-12,77" Height="485">
+                        <TextBlock Text="Book Title*"/>
+                        <TextBox x:Name="BookTitleTextBox"  Width="430" />
+                        <TextBlock Text="Genre"/>
+                        <TextBox x:Name="BookGenreTextBox"  Width="430"/>
+                        <TextBlock Text="Published Year"/>
+                        <TextBox x:Name="yearofpublicationTextBox"  Width="430"/>
+                        <TextBlock Text="Edition"/>
+                        <TextBox x:Name="EditionTextBox"  Width="430"/>
+                        <TextBlock Text="ISBN"/>
+                        <TextBox x:Name="ISBNTextBox"  Width="430"/>
+                        <TextBlock Text="Purchasedate"/>
+                        <TextBox x:Name="PdateTextBox"  Width="430"/>
+                        <TextBlock Text="Purchase Price"/>
+                        <TextBox x:Name="PPriceTextBox"  Width="430"/>
+                        <TextBlock Text="Current Value"/>
+                        <TextBox x:Name="CurrentValueTextBox"  Width="430"/>
+                         </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Author-->
+            <controls:PivotItem Header="Author">
+                <Grid x:Name="ContentPanel2" Grid.Row="1" Margin="12,0,12,0">
+
+                    <ListBox x:Name="Author"  Margin="0,0,-12,0">
+                        <TextBlock Text="Author Surname*"/>
+                        <TextBox x:Name="AusurnameTextBox"  Width="430"/>
+                        <TextBlock Text="Author Forename*" />
+                        <TextBox x:Name="AuforenameTextBox"    Width="430"/>
+                        <TextBlock Text="Author Homepage*"/>
+                        <TextBox x:Name="AuhomepageTextBox"  Width="430"/>
+                        <TextBlock Text="Author Email*"/>
+                        <TextBox x:Name="AuemailTextBox"  Width="430"/>
+                        <TextBlock Text="Author CV*"/>
+                        <TextBox x:Name="AuCVTextBox" Width="430"/>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Editor-->
+            <controls:PivotItem Header="Editor">
+                <Grid x:Name="ContentPanel3" Grid.Row="1" Margin="12,0,12,0">
+
+                    <ListBox x:Name="Editor"  Margin="0,0,-12,0">
+                        <TextBlock Text="Editor surname*"/>
+                        <TextBox x:Name="EditorSurnameTextBox"  Width="430"/>
+                        <TextBlock Text="Editor forename*"/>
+                        <TextBox x:Name="EditorForenameTextBox" Width="430"/>
+                        <TextBlock Text="Editor Homepage"/>
+                        <TextBox x:Name="EditorHomePageTextBox"  Width="430"/>
+                        <TextBlock Text="Editor Email"/>
+                        <TextBox x:Name="EditorEmailTextBox" Width="430"/>
+
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <controls:PivotItem Header="Importer">
+                <Grid x:Name="ContentPanel4" Grid.Row="1" Margin="12,0,12,0">
+
+                    <ListBox x:Name="Importer"  Margin="0,0,-12,0">
+                        <TextBlock Text="Importer Name"/>
+                        <TextBox x:Name="IpNameTextBox"  Width="430"/>
+                        <TextBlock Text="Importer Address"/>
+                        <TextBox x:Name="IpAdrTextBox"  Width="430"/>
+                        <TextBlock Text="Importer HomePage"/>
+                        <TextBox x:Name="IpHpTextBox" Width="430"/>
+                        <TextBlock Text="Importer Email"/>
+                        <TextBox x:Name="IpEmailTextBox"  Width="430"/>
+
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <controls:PivotItem Header="Review">
+                <Grid x:Name="Contentpanel_Review" Grid.Row="1" Margin="12,0,12,0">
+
+                    <ListBox x:Name="Review"  Margin="0,0,-12,0">
+                        <TextBlock Text="Author"/>
+                        <TextBox x:Name="ReauthorTextBox"  Width="430"/>
+                        <TextBlock Text="Review: "/>
+                        <TextBox x:Name="RetextTextBox"  Width="430"/>
+                        <TextBlock Text="Info"/>
+                        <TextBox x:Name="ReinfoTextBox"  Width="430"/>
+                        </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <controls:PivotItem Header="Publisher">
+                <Grid x:Name="ContentPanel_Publisher" Grid.Row="1" Margin="12,0,12,0">
+
+                    <ListBox x:Name="Publisher"  Margin="0,0,-12,0">
+                        <TextBlock Text="Publisher Name*"/>
+                        <TextBox x:Name="PublisherNameTextBox"    Width="430"/>
+                        <TextBlock Text="Publisher Location*"/>
+                        <TextBox x:Name="PublisherLocationTextBox"  Width="430"/>
+                        <TextBlock Text="Publisher Country"/>
+                        <TextBox x:Name="PublisherCountryTextBox" Width="430"/>
+                        <TextBlock Text="Publisher Homepage"/>
+                        <TextBox x:Name="PublisherHomepageTextBox"  Width="430"/>
+                        <TextBlock Text="Publisher Email"/>
+                        <TextBox x:Name="PublisherEmailTextBox"  Width="430"/>
+
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+
+            <!--Seller-->
+            <controls:PivotItem Header="Book Seller">
+                <Grid x:Name="ContentPanel_BookSeller" Grid.Row="1" Margin="12,0,12,0">
+
+                    <ListBox x:Name="BookSeller"  Margin="0,0,-12,0">
+                        <TextBlock Text="Bookseller Name*"/>
+                        <TextBox x:Name="BookSellerNameTextBox"  Width="430"/>
+                        <TextBlock Text="Bookseller Address"/>
+                        <TextBox x:Name="BookSellerAdrTextBox"  Width="430"/>
+                        <TextBlock Text="Bookseller Email"/>
+                        <TextBox x:Name="BookSellerEmailTextBox"  Width="430"/>
+                        <TextBlock Text="Bookseller Homepage" Width="430"/>
+                        <TextBox x:Name="BookSellerHomePgTextBox"  Width="430"/>
+                        <TextBlock Text="Bookseller Phone" Width="430"/>
+                        <TextBox x:Name="BookSellerPhoneTextBox"  Width="430"/>
+                        <TextBlock Text="Assortment of Book" Width="430"/>
+                        <TextBox x:Name="AssortmentofbookTextBox"  Width="430"/>
+                        <TextBlock Text="Get newsletter by email"/>
+                        <TextBox x:Name="bsnewsemailTextBox" Width="430"/>
+                        <TextBlock Text="Get newsletter by ordinary mail"/>
+                        <TextBox x:Name="bsnewsmailTextBox" Width="430"/>
+                        <TextBlock Text="Bookseller event" />
+                        <TextBox x:Name="BookSellerEventTextBox"  Width="430"/>
+                        <TextBlock Text="Bookseller speciality" />
+                        <TextBox x:Name="BooksellerSpecialityTextBox"  Width="430"/>
+                        <TextBlock Text="Local branch address"/>
+                        <TextBox x:Name="BranchAdrTextBox" Width="430"/>
+                        <TextBlock Text="Local branch Phone"/>
+                        <TextBox x:Name="BranchPhoneTextBox"  Width="430"/>
+                        <TextBlock Text="Local branch HomePage"/>
+                        <TextBox x:Name="BranchHomePageTextBox"  Width="430"/>
+                        <TextBlock Text="Local branch Email"/>
+                        <TextBox x:Name="BranchEmailTextBox"  Width="430"/>
+                   </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Location-->
+            <controls:PivotItem Header="Storagelocation">
+                <Grid x:Name="ContentPanel_Storagelocation" Grid.Row="1" Margin="12,0,12,0">
+                    <ListBox x:Name="Storagelocation"  Margin="0,0,-12,0">
+                        <TextBlock Text="Location Name*"/>
+                        <TextBox x:Name="LocationNameTextBox"  Width="430"/>
+                        <TextBlock Text="Location Adress*"/>
+                        <TextBox x:Name="LocationAdrTextBox" Width="430"/>
+                        <TextBlock Text="Location Room*"/>
+                        <TextBox x:Name="LcRoomTextBox"  Width="430"/>
+                        <TextBlock Text="Shelf Label"/>
+                        <TextBox x:Name="ShelfLabelTextBox"  Width="430"/>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+
+            <!--Rack-->
+            <controls:PivotItem Header="Rack">
+                <Grid x:Name="ContentPanel_Rack" Grid.Row="1" Margin="12,0,12,0">
+                    <ListBox x:Name="Rack"  Margin="0,0,-12,0">
+                        <TextBlock Text="Rack Label*"/>
+                        <TextBox x:Name="RackLabelTextBox"   Width="430"/>
+                        <TextBlock Text="Capacity"/>
+                        <TextBox x:Name="RackCapacityTextBox"  Width="430"/>
+                        <TextBlock Text="Rack Additional info"/>
+                        <TextBox x:Name="RackAddInfoTextBox"  Width="430"/>
+                        
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+        </controls:Pivot>
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Mode="Minimized">
+            <shell:ApplicationBarIconButton 
+                x:Name="addbookButton" 
+                IconUri="/Image/appbar.save.rest.png"
+                Text="Add"                 
+                Click="addbookButton_Click"/>
+            <shell:ApplicationBarIconButton 
+            x:Name="backButton" 
+                IconUri="/Image/appbar.back.rest.png"
+                Text="Back"                 
+                Click="BackButton_Click"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

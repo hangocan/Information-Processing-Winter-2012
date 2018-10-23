@@ -1,0 +1,155 @@
+﻿<phone:PhoneApplicationPage 
+  x:Class="WP7SQLiteClient.Control.browse"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480"
+    xmlns:Controls="clr-namespace:Coding4Fun.Phone.Controls;assembly=Coding4Fun.Phone.Controls"
+    shell:SystemTray.IsVisible="True">
+
+    
+
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <controls:Pivot>
+
+            <!--Book-->
+            <controls:PivotItem Name="book" Header="Book" Tap="book_Tap">
+                <Grid x:Name="ContentPanel1" Grid.Row="1" Margin="12,0,12,0">
+                    <ListBox x:Name="Book"  Margin="0,0,-12,0" ItemsSource="{Binding}" >
+                    <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Book}" TextWrapping="Wrap" FontSize="40" MaxWidth="450" />
+                               </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                     </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Author-->
+            <controls:PivotItem Name="author" Header="Author" >
+                <Grid x:Name="ContentPanel2" Grid.Row="1" Margin="12,0,12,0">
+
+                    <ListBox x:Name="Author"  Margin="0,0,-12,0" ItemsSource="{Binding}" Tap="author_Tap" SelectionMode="Single" >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Author}" TextWrapping="Wrap" MaxWidth="450" FontSize="40"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Editor-->
+            <controls:PivotItem Header="Editor" Name="editor" Tap="editor_Tap" >
+                <Grid x:Name="Contentpanel3" Grid.Row="1" Margin="12,0,12,0" >
+
+                    <ListBox x:Name="Editor"  Margin="0,0,-12,0" ItemsSource="{Binding}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Editor}" TextWrapping="Wrap" MaxWidth="450" FontSize="40"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+<!--Importer-->
+            <controls:PivotItem Header="Importer" Name="importer" Tap="importer_Tap">
+                <Grid x:Name="ContentPanel4" Grid.Row="1" Margin="12,0,12,0">
+
+                    <ListBox x:Name="Importer"  Margin="0,0,-12,0" ItemsSource="{Binding}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Imname}" TextWrapping="Wrap" MaxWidth="450" FontSize="40"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <controls:PivotItem Header="Publisher" Name="publisher" Tap="publisher_Tap">
+                <Grid x:Name="ContentPanel_Publisher" Grid.Row="1" Margin="12,0,12,0">
+
+                    <ListBox x:Name="Publisher"  Margin="0,0,-12,0" ItemsSource="{Binding}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Puname}" TextWrapping="Wrap" MaxWidth="450"  FontSize="40"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+
+            <!--Seller-->
+            <controls:PivotItem Header="Book Seller" Name="bookseller" Tap="bookseller_Tap">
+                <Grid x:Name="ContentPanel_BookSeller" Grid.Row="1" Margin="12,0,12,0">
+
+                    <ListBox x:Name="Bookseller"  Margin="0,0,-12,0" ItemsSource="{Binding}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Boname}" TextWrapping="Wrap" FontSize="40" MaxWidth="450"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Location-->
+            <controls:PivotItem Header="Storage" FontSize="30" Name="storage" Tap="storage_Tap">
+                <Grid x:Name="ContentPanel_Storagelocation" Grid.Row="1" Margin="12,0,12,0">
+                    <ListBox x:Name="Storagelocation"   Margin="0,0,-12,0" ItemsSource="{Binding}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock  Text="{Binding Sllocname}" TextWrapping="Wrap" TextAlignment="Left" Width="450" FontSize="40"/>
+            	                       </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+
+            <!--Rack-->
+           
+        </controls:Pivot>
+    </Grid>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Mode="Minimized">
+            <shell:ApplicationBarIconButton 
+            x:Name="searchButton" 
+                IconUri="/Image/appbar.search.rest.png"
+                Text="Search"                 
+                Click="searchButton_Click_1"/>
+            <shell:ApplicationBarIconButton 
+            x:Name="backButton" 
+                IconUri="/Image/appbar.back.rest.png"
+                Text="Main page"                 
+                Click="BackButton_Click"/>
+            
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>

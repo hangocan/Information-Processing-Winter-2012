@@ -1,0 +1,83 @@
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\ApplicationIcon.png
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Background.png
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Image\appbar.add.rest.png
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Image\appbar.cancel.rest.png
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Image\appbar.check.rest.png
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Image\appbar.delete.rest.png
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\WP7SQLiteClient.dll
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\WP7SQLiteClient.pdb
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\AppManifest.xaml
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Strix.xap
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Coding4Fun.Phone.Audio.dll
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Coding4Fun.Phone.Controls.dll
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Coding4Fun.Phone.Controls.Toolkit.dll
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Coding4Fun.Phone.Net.dll
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Coding4Fun.Phone.Site.Controls.dll
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Coding4Fun.Phone.Storage.dll
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Community.CsharpSqlite.WP.dll
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\Bin\Debug\Community.CsharpSqlite.WP.pdb
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\App.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\BooksellerDetail.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\BranchDetail.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\Loansearch.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\ReviewDetail.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\StorageDetail.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\Add.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\AuthorDetail.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\locationsearch.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\BookDetail.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\MainPage.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\EditorDetail.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\ImporterDetail.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\manage.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\PublisherDetail.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\Searchform.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\Searchresult.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\browse.g.i.cs
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\WP7SQLiteClient.g.resources
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\WP7SQLiteClient.dll
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\WP7SQLiteClient.pdb
+C:\Users\admin\Desktop\Window phone\Source Code - Using on Window Phone SDK\Shinbe Library\WP7SQLiteClient\obj\Debug\XapCacheFile.xml
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\WP7SQLiteClient.csprojResolveAssemblyReference.cache
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\App.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\BooksellerDetail.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\BranchDetail.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\Loansearch.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\ReviewDetail.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\StorageDetail.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\Add.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\AuthorDetail.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\locationsearch.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\BookDetail.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\MainPage.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\EditorDetail.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\ImporterDetail.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\manage.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\DetailPages\PublisherDetail.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\Searchform.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\Searchresult.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\Control\browse.g.cs
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\WP7SQLiteClient.g.resources
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\WP7SQLiteClient.dll
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\obj\Debug\WP7SQLiteClient.pdb
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\ApplicationIcon.png
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Background.png
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Image\appbar.add.rest.png
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Image\appbar.cancel.rest.png
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Image\appbar.check.rest.png
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Image\appbar.delete.rest.png
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\WP7SQLiteClient.dll
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\WP7SQLiteClient.pdb
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Coding4Fun.Phone.Audio.dll
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Coding4Fun.Phone.Controls.dll
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Coding4Fun.Phone.Controls.Toolkit.dll
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Coding4Fun.Phone.Net.dll
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Coding4Fun.Phone.Site.Controls.dll
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Coding4Fun.Phone.Storage.dll
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Community.CsharpSqlite.WP.dll
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Microsoft.Phone.Controls.dll
+E:\Project Compilation\Information Processing Winter 2012\Window phone project WS2012\Shinbe Library\WP7SQLiteClient\Bin\Debug\Community.CsharpSqlite.WP.pdb

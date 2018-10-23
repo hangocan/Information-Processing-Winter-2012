@@ -1,0 +1,120 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="WP7SQLiteClient.Control.StorageDetail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls" >
+
+    <!--Data context is set to sample data above and first item in sample data collection below and LayoutRoot contains the root grid where all other page content is placed-->
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <controls:Pivot HorizontalAlignment="Left" Width="480">
+            <!--Seller-->
+            <controls:PivotItem Header="Location">
+                <Grid x:Name="ContentPanel_StorageDetail" Grid.Row="1" Margin="12,0,12,0">
+
+                    <ListBox x:Name="Storagelocation"  Margin="0,0,-12,0" >
+
+                        <TextBlock Text="Name" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="StorageNameTextBox"  Width="430"/>
+
+                        <TextBlock Text="Address" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="StorageAddressTextBox"  Width="430"/>
+
+
+                        <TextBlock Text="Humidity" Width="430" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="StorageHumidityTextBox"  Width="430"/>
+
+                        <TextBlock Text="Humidity reference " Width="430" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="StorageHumidityRefTextBox"  Width="430"/>
+
+                        <TextBlock Text="Temperature" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="StorageTemperatureTextBox" Width="430"/>
+
+                        <TextBlock Text="Temperature reference" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBox x:Name="StorageTemperRefTextBox" Width="430"/>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Book-->
+
+            <controls:PivotItem Header="Room list">
+                <Grid x:Name="Room" Grid.Row="1" Margin="12,0,12,0">
+                    <ListBox x:Name="RoomList"  Margin="0,0,-12,0" ItemsSource="{Binding}" Tap="RoomList_Tap" SelectionMode="Single">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Slroom}" FontSize="40"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <controls:PivotItem Header="Shelf list">
+                <Grid x:Name="Shelf" Grid.Row="1" Margin="12,0,12,0">
+                    <ListBox x:Name="ShelfList"  Margin="0,0,-12,0" ItemsSource="{Binding}" Tap="ShelfList_Tap" SelectionMode="Single">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Slshelflabel}" FontSize="40"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <controls:PivotItem Header="Rack list">
+                <Grid x:Name="Rack" Grid.Row="1" Margin="12,0,12,0">
+                    <ListBox x:Name="RackList"  Margin="0,0,-12,0" >
+                        <TextBlock Text="Rack name" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBlock x:Name="Raname" Style="{StaticResource PhoneTextLargeStyle}" Width="430"/>
+
+                        <TextBlock Text="Humidity" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBlock x:Name="Rahumidity" Style="{StaticResource PhoneTextLargeStyle}" Width="430"/>
+
+                        <TextBlock Text="Humidity reference" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBlock x:Name="Rahumidrevalue" Style="{StaticResource PhoneTextLargeStyle}"  Width="430"/>
+
+                        <TextBlock Text="Temperature" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBlock x:Name="RaTemperature" Style="{StaticResource PhoneTextLargeStyle}" Width="430"/>
+
+                        <TextBlock Text="Temperature reference" Style="{StaticResource PhoneTextLargeStyle}"/>
+                        <TextBlock x:Name="Ratemrefval" Style="{StaticResource PhoneTextLargeStyle}" Width="430"/>
+
+                       
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+
+        </controls:Pivot>
+    </Grid>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton 
+                x:Name="EditButton" 
+                IconUri="/Image/appbar.add.rest.png"
+                Text="Edit"                 
+                Click="EditButton_Click"/>
+            <shell:ApplicationBarIconButton 
+            x:Name="backButton" 
+                IconUri="/Image/appbar.back.rest.png"
+                Text="Back"                 
+                Click="BackButton_Click"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>
